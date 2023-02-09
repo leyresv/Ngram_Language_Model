@@ -1,6 +1,23 @@
 # Ngram Language Model
 
+
+## Installation
+
+```bash
+pip install git+https://github.com/leyresv/Ngram_Language_Model.git
+pip install -r requirements.txt
+```
+
+## Usage
+
+To use the Language Model on your own data, open a terminal prompt on the root directory and introduce the following command:
+```bash
+python src/main/main.py
+```
+
+
 ## Model
+
 
 ### Markov assumption
 
@@ -71,3 +88,10 @@ Perplexity(w_1,...,w_n) = & P(w_1,...,w_n)^{-\frac{1}{n}} \\
 & = \sqrt[n]{\prod^n_{i=N+1}\frac{1}{P(w_i|w_{i-N},...,w_{i-1})}}
 }$$ 
 
+
+
+
+
+## References
+
+https://web.stanford.edu/~jurafsky/slp3/3.pdf
