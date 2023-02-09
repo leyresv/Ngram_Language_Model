@@ -1,5 +1,6 @@
-# Ngram Language Model
+# Trigram Language Model for Spanish
 
+In this project, I have implemented a trigram language model in Spanish, trained on texts from Cervantes.
 
 ## Installation
 
@@ -16,7 +17,7 @@ python src/main/main.py
 ```
 
 
-## Model
+## Ngram Model
 
 
 ### Markov assumption
