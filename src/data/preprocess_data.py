@@ -1,8 +1,5 @@
 import json
 import os
-import pickle
-import random
-from datasets import load_dataset
 from collections import Counter
 from spacy.lang.es import Spanish
 
