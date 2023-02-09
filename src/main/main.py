@@ -3,7 +3,6 @@ import json
 import sys
 import pickle
 from spacy.lang.es import Spanish
-from src.data.preprocess_data import tokenize_dataset, preprocess_data
 
 cur_file_path = os.path.dirname(os.path.realpath(__file__))
 data_path = os.path.join(cur_file_path, "../data")
